@@ -1,0 +1,83 @@
+.content button{
+    background-color: green;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 1em;
+    color: white;
+    border: none;
+    }
+    .content{
+        background-color: rgb(173, 139, 139);
+        width: 1200px;
+        height: 700px;
+        margin: auto;
+        margin-top: 20px;
+        padding-left: 20px;
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    .form{
+        border: 1px solid black;
+        background-color: #cabdbdc4;
+        width:300px;
+        height: 500px;
+         padding: 30px;
+        border-radius: 5PX;
+        margin: auto;
+        /* margin-left: 30px; */
+        transition: 3s ease-in-out;
+        transform: translateY(-200%);
+        visibility: hidden;
+    }
+    .frm{
+        transition: 1s ease-in-out;
+        transform: translateY(-120%);
+        visibility: visible;   
+    }
+    .submit{
+        transform: translateX(350%);
+      transition: 5s ease-in-out; 
+    }
+    .placeholder{
+        color: black;
+        font-size: 20px;
+    }
+    select{
+        color: black;
+        font-size: 20px;
+        font-weight:400;
+    }
+    input[type=submit]{
+        background-color: green;
+        width: 100px;
+        border-radius: 20px;
+        margin-left: 1em;
+        color: white;
+        border: none;
+    }
+    .reply{
+        background-color: rgb(45, 138, 232);
+        position: relative;
+        width:50%;
+        height: 200px;
+        margin-top: -9900px; 
+        margin: auto;
+        transition: 3s ease-in-out;
+        transform: translateX(-250%);
+        visibility: hidden;
+        color: white;
+    }
+    .repl{
+        transition: 5s ease-in-out;
+        transform: translateX(5%);
+        visibility: visible; 
+        margin-top: -850px; 
+    }
+    .up{
+        
+        background-color: rgb(224, 132, 132);
+        color: white;
+        transform: translateY(-300%); 
+        transition: 7s ease-in-out; 
+        
+    }
