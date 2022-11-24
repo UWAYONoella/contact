@@ -32,3 +32,4 @@ function Message(){
     reply.classList.add("up");
     reply.innerText=`Please,Refresh and click on Apply button to obtain the form again!!!.`
 }
+Message();
