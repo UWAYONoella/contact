@@ -15,8 +15,8 @@ button1.addEventListener("click",e=>{
     // console.log(fname.value+" "+lname.value);
 reply.classList.toggle("repl");
 if(fname.value && lname.value && email.value && password.value){
-    reply.innerText=`Congratulations ${fname.value} ${lname.value}!
-    your application is successfully received. You will obtain a fedback within 48hours.`;
+    reply.innerText=`Thank you, ${fname.value} ${lname.value}!
+    your message is successfully received.`;
     console.log(`${fname.value} ${lname.value} ${email.value} ${password.value}`)
 }
 else{
@@ -25,11 +25,11 @@ else{
 
 setTimeout(()=>{
     Message();
-    },10000)
+    },3000)
 }
 })
 function Message(){
     reply.classList.add("up");
-    reply.innerText=`Please,Refresh and click on Apply button to obtain the form again!!!.`
+    reply.innerText=`Please,Refresh and click on Contact button to obtain the form again!!!.`
 }
 Message();
